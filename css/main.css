@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.gradient{
+    background: rgb(0, 97, 242);
+    background: linear-gradient(135deg, rgba(0, 97, 242, 1) 0%, 
+        rgba(105, 0, 199, 1) 100%);
+}
+
+.feature {
+  color: #fff;
+}
+.feature ul li{
+  list-style-type: none;
+  padding-left: 2rem;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+footer{
+    margin: 0;
+}
